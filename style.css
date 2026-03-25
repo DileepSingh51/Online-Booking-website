@@ -1,0 +1,109 @@
+/* GENERAL */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* white page */
+}
+
+/* HEADER */
+header {
+  background-color: #0a74da;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* nav right, h1 left */
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #0a74da; /* blue hero */
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+  background-color: white;
+  color: #0a74da;
+  border: 2px solid white;
+  padding: 8px 16px; /* small button */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.hero a {
+  display: block; /* center button */
+  text-align: center;
+}
+
+/* FORM (booking.html style) */
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column; /* up-down stacking */
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #0a74da;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #055fa3;
+}
